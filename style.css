@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color:url("blue");
+    font-family: Arial, sans-serif;
+    background-color: cover  ;
+    background-position:center  ;
+    background-size:contain  ;
+}
+
+
+nav {
+    background: #1e3a8a;
+    color: white;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 03s;
+}
+
+
+
+.banner {
+    height: 90vh;
+    background: linear-gradient(to right, #2563eb, #0c1d3f);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+.banner h1 {
+    font-size: 45px;
+}
+
+.banner p {
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+.banner button {
+    background: white;
+    color: #2563eb;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+section {
+    padding: 60px 80px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skills div {
+    background: #103481;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+
+
+.project-card {
+    background: #f4f4f4;
+    margin: 20px auto;
+    padding: 20px;
+    width: 70%;
+    border-radius: 10px;
+}
+
+
+#contact {
+    background: #1a3166;
+    color: white;
+    text-align: center;
+}
